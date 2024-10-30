@@ -1,4 +1,4 @@
-import { Grid2, Typography } from "@mui/material"
+import { Grid2, Typography, Input } from "@mui/material"
 
 const UserForm = props => {
     return (
@@ -83,3 +83,5 @@ const UserForm = props => {
         </Grid2>
     );
 }
+
+export default UserForm;
